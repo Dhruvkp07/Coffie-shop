@@ -53,46 +53,4 @@ Use coffieshop_schema.sql to set up the database in MySQL Workbench (or any comp
 
 Use coffe.csv to import cleaned data if desired for further experiments.
 
-Author
-Created by Dhruvkp07
 
-License
-This project is open-source and available for educational and demonstration purposes.
-
-You can copy-paste this to your README.md, adjusting any specific notebook or file names as needed. This will give a great first impression to anyone reviewing your project!Here’s a simple and clear README.md file content you can use for your project:
-
-Coffeeshop Data Project
-Overview
-This project showcases a complete data workflow using a coffee shop transactions dataset:
-
-Data cleaning in Python (Jupyter Notebook)
-
-Data visualization using Seaborn & Matplotlib
-
-Relational database design and creation with MySQL
-
-Files
-COFFIESHOP_DATACLEAN.ipynb: Data cleaning and preprocessing notebook.
-
-COFFIESHOP_visualization.ipynb: Notebook for plotting and exploring the cleaned data.
-
-coffe.csv: The cleaned dataset used for visualizations and database work.
-
-coffieshop_schema.sql: SQL script to create tables and sample data in MySQL.
-
-Workflow
-Data Cleaning:
-The COFFIESHOP_DATACLEAN.ipynb notebook cleans raw data by removing nulls, correcting types, and structuring columns for analysis and storage.
-
-Visualization:
-In COFFIESHOP_visualization.ipynb, core trends are explored with Seaborn and Matplotlib, showing sales breakdowns by time, drink, and payment type.
-
-Database Design:
-The coffieshop_schema.sql defines normalized SQL tables for coffee names, payment types, and transactions, and demonstrates initial sample entries.
-
-Usage
-Review notebooks for preprocessing and EDA steps.
-
-Execute the SQL script in MySQL Workbench or any MySQL client to create the database.
-
-Use the CSV file for bulk import or further analysis.
